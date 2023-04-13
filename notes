@@ -1,0 +1,214 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 1px solid blue;
+    height: calc(var(--vh, 1vh) * 9);
+}
+
+.navbar .nav-ul {
+    margin: 0;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.navbar .nav-ul .nav-li {
+    list-style: none;
+    /* padding: 1rem 0; */
+    width: 19%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 2.5rem;
+    height: 100%;
+    outline: 1px solid green;
+}
+
+.navbar .nav-ul .nav-li .nav-anchors {
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    outline: 1px solid red;
+    width: 100% ;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0; */
+}
+
+.navbar .nav-ul .nav-li .nav-anchors:hover {
+    color: #0B2447;
+}
+@media (max-width: 600px) {
+
+    /* navbar section */
+    .navbar {
+        width: 100%;
+        /* height: 4rem; */
+        /* height: calc(var(--vh, 1vh) * 100); */
+        height: 10rem;
+    }
+
+    .navbar .nav-ul {
+        width: 100%;
+        height: 8rem;
+    }
+
+    .navbar .nav-ul .nav-li {
+        /* list-style: none; */
+        /* padding: 1rem 0; */
+        width: 8rem;
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: space-evenly; */
+        /* margin-right: 2.5rem; */
+        /* outline: 1px solid green; */
+    }
+
+    .navbar .nav-ul .nav-li .nav-anchors {
+        font-size: 1.5rem;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.experience {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(https://images.unsplash.com/photo-1615133423830-2d98f1116047?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGtleWJvYXJkc3xlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(1.5px);
+    /* border: 1px solid red; */
+    /* height: calc(var(--vh, 1vh) * 100); */
+}
+
+.exp-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.exp-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    margin: 1rem;
+}
+
+#heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #0B2447;
+    font-weight: bold;
+}
+
+#the-exp {
+    width: 26rem;
+    height: inherit;
+    line-height: 1rem;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    padding: .5rem;
+}
+
+.exp-post {
+    color: #0B2447;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0;
+    line-height: 1rem;
+}
+
+.exp-company {
+    color: #0B2447;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.exp-duration {
+    color: #000;
+    font-size: 15px;
+    line-height: 1px;
+}
+
+.exp-area {
+    color: #000;
+    font-size: 15px;
+    line-height: 1px;
+}
+
+.exp-job-discription {
+    color: #fff;
+}
+
+
+.skills {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(https://images.unsplash.com/photo-1615133423830-2d98f1116047?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGtleWJvYXJkc3xlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(1.5px);
+    /* border: 1px solid red; */
+    /* height: calc(var(--vh, 1vh) * 100); */
+}
+
+.skills #heading {
+    margin: .5rem;
+}
+
+.skills-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 1rem 0 2rem 0;
+}
+
+#the-skills {
+    width: 17rem;
+    height: 2.5rem;
+    margin: .1rem .3rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 15px;
+    color: #fff;
+}
